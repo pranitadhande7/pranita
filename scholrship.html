@@ -1,0 +1,77 @@
+<html>
+        <head>
+            <title>Scholarship Form</title> </head>
+            <body>
+                <h1 align="centre">SCHOLARSHP REGISTRATION FORM</h1>
+                
+            <body bgcolor="lavender">
+           <form>
+                <fieldset>
+                    <legend>
+                        <h3  align="centre">User Personal Information: </h3>
+                    </legend>
+                    <label for="name">Enter Your Full Name:</label>
+                    <input type="text" required Placeholder="First Name"/>
+                    <input type="text" required placeholder="Last Name"/><br>
+                    <label for="email">Enter Your Email :</label>
+                    <input type="email" required /><br>
+                    <label for="password">Enter Your password:</label>
+                    <input type="password" required /><br>
+                    <label for="verify password">Verify Your password:</label>
+                    <input type=" verify password" required /><br>
+                    <label for="dob">Enter Your Date of Birth:</label>
+                    <input type="date" required/><br>
+                    <label>Select Gender:</label>
+                    <div class="gender-group">
+                        <input type="radio" value="male" required/>
+                        <label for="male">Male</label>
+                        <input type="radio" value="female"/>
+                        <label for="female">Female</label>
+                        <input type="radio" value="others"/>
+                        <label for="others">Others</label>
+                    </div>
+                    <label for="address">Enter your Address:</label>
+                    <input type="textarea" required></textarea><br>
+
+                    <label>Select your state:</label>
+                    <div class="state-group">
+                        <select>
+                            <option>----------------Select State------------</option>
+                            <option>Maharashtra</option>
+                            <option>Madhyapradesh</option>
+                            <option>Gujarat</option>
+                            <option>Tamil Nadu</option>
+                            <otion>Bihar</otion>
+                        </select>
+                    </div>
+                        <legend><h3>Educational Info</h3></legend>
+                        <div class="branch-group">
+                            <input type="checkbox"/>CSE
+                            <input type="checkbox"/>IT
+                            <input type="checkbox"/>ETC
+                            <input type="checkbox"/>Civil
+                            <input type="checkbox"/>Mech<br>
+                            </div>
+
+                           <div>
+                            <label for="ssc">SCC % marks</label>
+                            <input type="%marks" required/><br>
+                            <label for="ssc">HSC % marks</label>
+                            <input type="%marks" required/><br>
+                            <label for="ssc">B.Tech % marks</label>
+                            <input type="%marks" required/><br>
+                            </div>
+
+                   <legend><h3>Upload Document:</h3></legend>
+                   <label for="photo">Upload</label>
+                   <input type="file" required/><br>
+                   <label for="photo">Income Certificate:</label>
+                   <input type="file" required/><br>
+                   <label for="photo">Caste Certificate:</label>
+                   <input type="file" required/><br>
+                   <input type="submit" value="REGISTRATION"/>
+
+                </fieldset>
+            </form>
+    </body>
+</html>
